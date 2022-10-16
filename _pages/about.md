@@ -9,7 +9,7 @@ toc: true
 
 ## Profile
 
-<center><img src="/assets/img/bio.jpg" width="30%" height="30%" style="
+<center><img src="/assets/img/bio2.jpeg" width="30%" height="30%" style="
 border: 1px solid #cab6de;
 border-radius: 50%;
 padding: 5px;
@@ -24,6 +24,7 @@ padding: 5px;
 ## Career & Activities
 
 - Korea Univ. Dns Lab (Sejong campus)
+- Project NANO (Project Leader)
 
 ## Current Interest
 

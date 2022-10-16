@@ -10,6 +10,11 @@ html {
   background-color: $background-color;
   font-size: 16px;
 
+  /* 타이틀 폰트사이즈 26px 조절 */
+  #page-title {
+    font-size: 26px;
+  }
+
   @include breakpoint($medium) {
     font-size: 18px;
   }
@@ -23,7 +28,7 @@ html {
   @include breakpoint($x-large) {
     /* devinlife : large 페이지 일때 폰트 사이즈 축소 20px->18px */
     /* font-size: 20px; */
-    font-size: 18px;
+    font-size: 17px;
   }
 
   -webkit-text-size-adjust: 100%;

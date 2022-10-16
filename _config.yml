@@ -16,13 +16,14 @@ minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "dirt",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SeMin's DevLog"
+title                    : "SeMin's Dev Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kim Minse"
-description              : "An amazing website."
+description              : "SeMin's Dev Blog"
 url                      : "https://s3min141.github.io" # the base hostname & protocol for your site e.g. 
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
+docsurl                  : "https://mmistakes.github.io/minimal-mistakes"
 repository               : "s3min141/s3min141.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -99,11 +100,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-168677213-1"
-    anonymize_ip         : fasle # true, false (default)
-
+    tracking_id          : "G-XB3P28L1NB"
+    anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
@@ -111,7 +111,7 @@ author:
   avatar           : "/assets/img/bio2.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Junior Devloper"
   location         : "South Korea"
-  email            : 
+  email            : "minse0204@korea.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -290,9 +290,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
 
   # _pages
   - scope:

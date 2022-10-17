@@ -15,6 +15,7 @@
 minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
+futrue                   : true
 locale                   : "en-US"
 title                    : "SeMin's Dev Blog"
 title_separator          : "-"

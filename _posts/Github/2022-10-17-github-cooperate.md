@@ -2,11 +2,11 @@
 title: "[Github] Github으로 협업하기"
 excerpt: "깃헙으로 팀원들과 협업하기"
 categories: 
-        - Github
+    - Github
 
 tag:
-       - Github
-       - Team
+    - Github
+    - Team
 
 author_profile: true
 
@@ -27,9 +27,6 @@ Repository
 |  ├── Team member 1 (branch)
 |  ├── Team member 2 (branch)
 |  ├── Team member 3 (branch)
-                             ·
-                             ·
-                             ·
 ```
 
 - 먼저 master 브랜치에 Team Leader가 생성한 프로젝트를 Commit, Push한다.  
